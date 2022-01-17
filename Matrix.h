@@ -132,10 +132,6 @@ using dvec3 = dvec<3>;
 using dvec4 = dvec<4>;
 
 
-
-
-
-
 template<typename type, int components>
 inline type dot(Vector<type, components> a, Vector<type, components> b) {
 	return (a.T() * b)[0];
