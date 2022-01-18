@@ -3,4 +3,4 @@ project(Moz)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Moz testing.cpp Matrix.h Complex.h)
+add_executable(Moz testing.cpp Matrix.h Complex.h FastMath.h Constants.h)
